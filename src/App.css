@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  background-color: #e9f5ed;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #075e36;
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+.header h1 {
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.header p {
+  margin-bottom: 0;
+  font-size: 17px;
+}
+
+.players-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 35px 15px;
+  gap: 15px;
+}
+
+.players-container .card {
+  transition: transform 0.3s ease;
+}
+
+.players-container .card:hover {
+  transform: translateY(-8px);
+}
